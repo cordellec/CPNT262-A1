@@ -1,0 +1,46 @@
+/* parameters for whole page */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+/* flex box to body and view port with background */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(#cc2b5e, #753a88);
+}
+/* styling the main button */
+button {
+  font-size: xx-large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: black;
+  border: 2px solid yellow;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: limegreen;
+}
+/* over effect on button */
+button:hover {
+  background-color: chocolate;
+  color: black;
+}
+/* clicking effect */
+button:active {
+  color: darkred;
+  background-color: yellow;
+}
+/* styling for the anwser */
+p {
+  padding: 50px;
+  font-size: xx-large;
+  color: yellowgreen;
+  align-items: center;
+}
+/* takes away highlight effect */
+::selection {
+  color: none;
+  background: none;
+}
